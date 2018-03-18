@@ -39,8 +39,8 @@ head = {'Accept':'*/*',
        'Host':'job.6xiu.com'}  
        
 data = {'loginname':0,
-		  'password':'woshishui',
-		  'username':'商源绣品',
+		  'password':'',
+		  'username':'',
 		}
 r = s.post(url,data=data,headers=head)
 logs()
