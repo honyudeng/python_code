@@ -78,4 +78,4 @@ if r.json()['msg'] == u'登录成功':
 		time.sleep(1)
 else:
 	logging.info("登录失败")
-# and time.strftime('%H',time.localtime(time.time())) > 7 
+### and time.strftime('%H',time.localtime(time.time())) > 7 
